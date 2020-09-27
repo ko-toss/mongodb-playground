@@ -1,5 +1,3 @@
-export default function IndexPage() {
-  return <div>
-    Index Page
-  </div>
-}
+import { IndexPage } from 'pages/Index';
+
+export default IndexPage
