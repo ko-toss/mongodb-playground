@@ -20,7 +20,9 @@
     "normalize.css": "^8.0.1",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "react-redux": "^7.2.1"
+    "react-redux": "^7.2.1",
+    "redux-observable": "^1.2.0",
+    "rxjs": "^6.6.3"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.11.4",
