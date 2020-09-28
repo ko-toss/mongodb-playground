@@ -1,7 +1,6 @@
 import { getSomeData } from 'remotes/getSomeData';
 import { mocked } from 'ts-jest/utils';
 import { fireEvent, render, waitFor } from '@testing-library/react';
-import '@testing-library/jest-dom/extend-expect'
 import { IndexPage } from 'pages/Index/index';
 
 jest.mock('remotes/getSomeData')
