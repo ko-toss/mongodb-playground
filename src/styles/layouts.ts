@@ -11,6 +11,7 @@ export const cssMarginH = css`
 `
 
 export const cssCheckBox = css`
+  flex: 0 0 18px;
   width: 18px;
   height: 18px;
   border-radius: 50%;

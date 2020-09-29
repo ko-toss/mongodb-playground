@@ -5,7 +5,7 @@ export const VoteHeader = styled.div`
   align-items: center;
   justify-content: center;
   background-color: lightgrey;
-  padding-top: 8px;
-  padding-bottom: 16px;
+  padding: 10px 8px;
+  margin-bottom: 8px;
   margin-top: 24px;
 `
