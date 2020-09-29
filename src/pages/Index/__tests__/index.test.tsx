@@ -25,4 +25,19 @@ describe('Describe what we are testing, ', () => {
       expect(getByText('Some fake data received')).toBeInTheDocument()
     })
   })
+
+  test('with epic, of delayed emit just works', async () => {
+    const { getByText } = render(
+      <Provider store={reduxStore}>
+        <IndexPage />
+      </Provider>
+    )
+
+    fireEvent.click(getByText('Redux Button'))
+
+    await waitFor(() => {
+      expect(getByText('11100')).toBeInTheDocument()
+    })
+
+  })
 })
